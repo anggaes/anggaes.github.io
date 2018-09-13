@@ -1,0 +1,31 @@
+title:             Angga E. Setiawan
+email:             anggaeriansyahsetiawan@gmail.com
+description:       A Blog Theme by Start Bootstrap
+author:            Angga Eriansyah Setiawan
+baseurl:           ""
+url:               "http://anggaes.github.io"
+
+# Social Profiles
+twitter_username:  anggaes
+github_username:   anggaes
+facebook_username: 
+
+# Social settings
+500px_url:
+facebook_url: 
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://instagram.com/anggaes
+linkedin_url: https://www.linkedin.com/in/anggaeriansyahsetiawan/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/anggaes
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
