@@ -2934,6 +2934,10 @@
 				min-width: 320px;
 			}
 
+			html{
+				background-image: url("images/overlay.png"), url("../../assets_landing/images/bg-2.jpg");
+			}
+
 		/* List */
 
 			ul.actions {
