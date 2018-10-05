@@ -12,7 +12,8 @@ body {
   font-size: 15px;
   line-height: 26px;
   color: #B9CFD0;
-  font-family: 'Roboto Slab', serif;
+  /*font-family: 'Roboto Slab', serif;*/
+font-family: "Raleway", "Helvetica", sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -27,9 +28,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Comfortaa', cursive;
+  /*font-family: 'Comfortaa', cursive;*/
+  font-family: "Raleway", "Helvetica", sans-serif;
 }
 /*==========  Sections  ==========*/
+p#startJourney {
+    visibility: visible;
+  }
 .header {
   text-align: center;
   position: relative;
@@ -37,7 +42,7 @@ h6 {
   background-image: linear-gradient(to bottom, #6fc7d4 0%, #39ACBD 100%);
 }
 .header .master-head {
-  padding: 7% 30px;
+  padding: 7% 30px 25% 30px;
 }
 .header .page-title {
   padding: 0 30px 0 30px;
@@ -214,6 +219,7 @@ h6 {
 }
 .post-wrapper .post.bitbucket-icon .stem-overlay .icon {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/bitbucket-icon.png);
+  /*background-image: url(/icon/coding.png);*/
 }
 .post-wrapper .post.m-icon .stem-overlay .icon {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/m-icon.png);
@@ -221,6 +227,11 @@ h6 {
 .post-wrapper .post.twitter-icon .stem-overlay .icon {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/twitter-icon.png);
 }
+
+.post-wrapper .post.bpjstk-icon .stem-overlay .icon {
+  background-image: url(https://bpjsketenagakerjaan.go.id/images/logo-bpjs.png);
+}
+
 .post-wrapper .post .stem-overlay {
   position: absolute;
   top: 0px;
@@ -310,6 +321,10 @@ h6 {
   .stem-padding,
   .single-stem-icon {
     margin-left: 30px;
+  }
+
+  p#startJourney {
+    visibility: hidden;
   }
 }
 .clearfix {
